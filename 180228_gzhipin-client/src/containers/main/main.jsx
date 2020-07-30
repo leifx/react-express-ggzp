@@ -113,7 +113,7 @@ class Main extends Component {
     )
   }
 }
-
+// 2)connect()用于包装 UI 组件生成容器组件
 export default connect(
   state => ({user: state.user, unReadCount: state.chat.unReadCount}),
   {getUser}

@@ -111,7 +111,6 @@ export const register = ({username, password,password2, type}) => {
 
 // 登陆的异步action
 export const login = (username, password) => {
-
   if(!username) {
     return errorMsg('必须指定用户名')
   } else if(!password) {

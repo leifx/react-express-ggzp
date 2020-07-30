@@ -1,4 +1,13 @@
 /*
+ * @Descripttion: 
+ * @version: 
+ * @Author: leifxie
+ * @Date: 2020-07-29 18:32:05
+ * @LastEditors: leifxie
+ * @LastEditTime: 2020-07-30 10:59:34
+ * @FilePath: \react-express-ggzp\180228_gzhipin-client\src\index.js
+ */ 
+/*
 入口JS
  */
 import React from 'react'
@@ -16,6 +25,7 @@ import './assets/css/index.less'
 // import './test/socketio_test'
 
 ReactDOM.render((
+  // 1)Provider让所有组件都可以得到state数据
   <Provider store={store}>
     <HashRouter>
       <Switch>

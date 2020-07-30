@@ -76,7 +76,7 @@ class Login extends Component {
     )
   }
 }
-
+// 用于包装 UI 组件生成容器组件
 export default connect(
   state => ({user: state.user}),
   {login}
