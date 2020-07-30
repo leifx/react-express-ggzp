@@ -136,7 +136,7 @@ class Chat extends Component {
             value={this.state.content}
             extra={
               <div>
-                <span role="img" onClick={this.toggleShow}>😊</span>
+                <span role="img" aria-label="close" onClick={this.toggleShow}>😊</span>
                 <span onClick={this.send} style={{marginLeft:10}}>发送</span>
               </div>
             }
