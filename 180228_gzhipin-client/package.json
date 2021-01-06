@@ -4,7 +4,7 @@
   "private": true,
   "dependencies": {
     "antd-mobile": "^2.2.0",
-    "axios": "^0.18.0",
+    "axios": "^0.21.1",
     "eslint-loader": "^4.0.2",
     "js-cookie": "^2.2.0",
     "prop-types": "^15.6.2",
